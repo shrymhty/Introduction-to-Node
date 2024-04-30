@@ -1,9 +1,5 @@
-//const names = require('./names');
-//const sayHi = require('./utils');
-//const data = require('./alternative');
-require('./mind-grenade')
-/*console.log(data);
-sayHi('susan');
-sayHi(names.john);
-sayHi(names.peter);*/
+const _ = require('lodash');
+items = [1, [2, [3, [4]]]];
+const newItems = _.flattenDeep(items);
 
+ console.log(newItems);
